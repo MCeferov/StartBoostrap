@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Header starts */
+#header {
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+}
+
+.container{
+    display: flex;
+   
+}
+
+.logo {
+    margin-top : 35px;
+    margin-right: 55%;
+    width: 500px;
+    margin-left: 60px;
+}
+
+.logo a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li{
+    margin-right: 35px;
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li:hover{
+    color: #1abc9c;
+}
+
+/* Header ends */
+
+/* Main Starts */
+
+.main{
+    background-color: #1abc9c;
+    align-items: center;
+    justify-content: center;
+    height: 579px;
+}
+
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px ;
+}
+
+.avatar img{
+    width: 230px;
+}
+
+.about-main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-main p {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.star .line{
+    display: inline-block;
+    width: 125px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+.star box-icon{
+    margin: 0px 15px;
+}
+
+
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 15px;   
+}
+
+.main-title p{
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Main Ends */
